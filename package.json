@@ -1,0 +1,13 @@
+{
+  "name": "seal-micrositio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Micrositio informativo de SEAL, UTSJR 2026. HTML, CSS y JavaScript vanilla.",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "check": "node --check script.js && node tools/check.mjs",
+    "build": "node tools/check.mjs && node tools/build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
