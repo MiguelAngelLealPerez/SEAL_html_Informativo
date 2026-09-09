@@ -39,7 +39,7 @@ Los recursos usan rutas relativas para funcionar también en un subdirectorio de
 - Historial de versiones con `<details>` nativo, utilizables sin JavaScript.
 - Animaciones discretas al entrar en pantalla y contadores de una sola ejecución. Se respeta `prefers-reduced-motion`, incluso al cambiar la preferencia durante la sesión.
 - Canvas de firma ilustrativa con soporte táctil y ratón. No envía datos, no persiste trazos ni firma contratos. El botón Limpiar elimina el dibujo.
-- El editor permite modificar cliente, empresa y fecha de inicio, previsualizar el documento, guardar un borrador en localStorage y recuperarlo al recargar la misma dirección. El botón Borrar este borrador elimina únicamente esa copia. No se envía información al sistema SEAL.
+- Guardar borrador muestra una explicación de la simulación, sin almacenamiento real.
 
 ## Verificaciones
 
